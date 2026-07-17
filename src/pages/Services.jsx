@@ -76,7 +76,6 @@ export default function Services({ setPage }) {
           {[
             ["photo-1753715613373-90b1ea010731", "Frontend and backend code, reviewed line by line", { gridColumn: "1", gridRow: "1 / 3" }],
             ["photo-1558494949-ef010cbdcc31", "Infrastructure built for uptime, not luck", { gridColumn: "2", gridRow: "1" }],
-            ["photo-1633265486064-086b219458ec", "Security treated as a feature, not an afterthought", { gridColumn: "2", gridRow: "2" }],
           ].map(([id, caption, gridStyle], i) => (
             <Reveal key={id} delay={i * 100}>
               <div style={{ position: "relative", height: "100%", ...gridStyle }}>
